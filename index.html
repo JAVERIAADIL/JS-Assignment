@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS ASsingment chap 1-67</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <br>
+    <a href="JavaScriptvoid(0)" onclick="foo()">Click here</a>
+    <br>
+    <img src="images/mobile 2.jpg" alt="" onclick="thanks()">
+    <img src="images/mobile.jpg" alt="" onclick="thanks()">
+    <img src="images/mobile3.jpg" alt="" onclick="thanks()">
+    <img src="images/mobile4.jpg" alt="" onclick="thanks()">
+    <table>
+        <tr>
+        <th>Index</th>
+        <th>Name</th>
+        <th>Class</th>
+        <th></th>
+        </tr>
+        <tr id="first">
+        <td>0</td>
+        <td>Jhone</td>
+        <td>10</td>
+        <td><button onclick="del4()">Delete</button></td>
+        </tr>
+        <tr id="second">
+            <td>1</td>
+            <td>Doe</td>
+            <td>9</td>
+            <td><button onclick="del1()">Delete</button></td>
+            </tr>
+            <tr id="third">
+                <td>2</td>
+                <td>Mark</td>
+                <td>10</td>
+                <td><button onclick="del2()">Delete</button></td>
+                </tr>
+                <tr id="fourth">
+                    <td>3</td>
+                    <td>James</td>
+                    <td>8</td>
+                    <td><button onclick="del3()">Delete</button></td>
+                    </tr>
+        
+        
+        </table>
+
+        <img src="images/mobile4.jpg" alt="" onmouseover="changeImage()" id="img" onmouseout="changeImageBefore()">
+    <h1>Counter</h1>
+    <h2 id="show">0</h2>
+    <button onclick="inc()" id="add">Increase</button>
+    <button onclick="dec()" id="sub">Decrease</button>
+    <br>
+    <div class="tab tab-3">
+        First Name :<input type="text" name="finame" id="finame">
+        Last Name :<input type="text" name="laname" id="laname">
+        Age :<input type="number" name="agee" id="agee">
+        
+        <button onclick="addHtml();">Submit</button>
+       <p id="subt"></p><br>
+       <p id="subt1">
+       </p><br>
+       <p id="subt2"></p><br>
+    </div>
+    
+   
+   <br>
+  <br>
+    <h1>Content Area</h1>
+    <p id="txt">In this they are talking about the array method. So you have an array with stuff in it.... <span id="dot"></span>
+        <span id="more">
+        And reduce() is one of these array methods that you mutate or process whatever is in it
+        And in reduce() specifically, you give it accumulate a start value and the function
+        And then for each element, the accumulator will be passed in and whatever the function returns becomes the new accumulator value </span>
+    </p>
+
+
+    
+    <button type="button" id="read" onclick="read()">Read More</button>
+    <div class="container">
+        <div class="tab tab-1">
+            <table id="table" border="1">
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>Teap</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>Elsa</td>
+                    <td>Kazi</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>Engin</td>
+                    <td>Altan</td>
+                    <td>20</td>
+                </tr>
+            </table>
+        </div>
+        <div class="tab tab-2">
+            First Name :<input type="text" name="fname" id="fname">
+            Last Name :<input type="text" name="lname" id="lname">
+            Age :<input type="number" name="age" id="age">
+            
+            <button onclick="addHtmlTableRow();">Add</button>
+            <button onclick="editHtmlTbleSelectedRow();">Edit</button>
+            <button onclick="removeSelectedRow();">Remove</button>
+        </div>
+    </div>
+   
+
+    <p id="zom">
+        In this they are talking about the array method. So you have an array with stuff in it.And reduce() is one of these array methods that you mutate or process whatever is in it
+        And in reduce() specifically, you give it accumulate a start value and the function
+        And then for each element, the accumulator will be passed in and whatever the function returns becomes the new accumulator value
+    </p>
+        <button onclick="inz()">Zoom in(+)</button>
+        <button onclick="out()">Zoom out(-)</button>
+
+
+        <div> <h1> DOM </h1> <div id="form_content" class="content"> <label for="first_name">First Name</label> <input type="text" id="first_name"/> <label for="last_name">Last Name</label> <input type="text" id="last_name"/> <label for="email">Email</label> <input type="text" id="email"/> </div><div id="main_content" class="content"> <p class="render"> First Name : Alex</p><p class="render" id="lastName">Last Name: Bank</p><p class="render"> Email : alexbank@example.com</p><p class="render"> Country : Pakistan </p><p class="render"> contact : +92 300 1234567</p></div></div>
+    <button onclick="chng()">Update</button>
+
+    
+    <script src="app.js"></script>
+</body>
+</html>

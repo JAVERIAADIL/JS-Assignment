@@ -2240,13 +2240,13 @@ var e1=p.firstChild
 var e2=p.lastChild
 document.write("<br>"+e1) 
 document.write("<br>"+e2)
-//question5
+//part5
 var p=document.getElementById("lastName")
 var e1=p.previousSibling
 var e2=p.nextSibling
 document.write("<br>"+e1) 
 document.write("<br>"+e2)
-//question6
+//part6
 var p=document.getElementById("email")
 var e1=p.parentNode
 var e2=p.nodeType
